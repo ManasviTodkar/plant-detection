@@ -12,8 +12,8 @@ The Plant Disease Detection Web App is a web-based application that helps users 
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript (or any frameworks you are using like React, Vue, etc.)
-- **Backend**: Python (Flask/Django or any other framework)
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Python (Streamlit framework)
 - **Machine Learning**: TensorFlow/Keras or any relevant libraries for model implementation
 - **Database**: SQLite/MySQL or any database you’re using
 
@@ -21,4 +21,4 @@ The Plant Disease Detection Web App is a web-based application that helps users 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ManasviTodkar/plant-detection.git
