@@ -1,41 +1,24 @@
-# Plant Disease Detection [![Open Source Love png3](https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-This Website help you to detect disease in your plant🌳 based to the plant's leaf🍃 image
+# Plant Disease Detection Web App
 
-![image](https://github.com/Shubhamai/plant-disease-detection/blob/master/image.jpg)
+## Overview
 
-~The Website is LIVE🔴 [HERE](https://rocky-mountain-81944.herokuapp.com/) !, Check it out~ - [Due to horoku recent removal of free projects, it's no longer available](https://help.heroku.com/RSBRUH58/removal-of-heroku-free-product-plans-faq)
+The Plant Disease Detection Web App is a web-based application that helps users identify diseases in plants using machine learning algorithms. By uploading an image of a plant leaf, users can receive diagnosis and treatment suggestions.
 
+## Features
 
-## Table of Contents
+- **Image Upload**: Users can upload images of plant leaves.
+- **Disease Detection**: The app analyzes the image and identifies potential diseases.
+- **Treatment Suggestions**: Provides information on how to treat identified diseases.
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Installation](#installation)
-* [License](#license)
-* [Contact](#contact)
+## Technologies Used
 
-# About the project
+- **Frontend**: HTML, CSS, JavaScript (or any frameworks you are using like React, Vue, etc.)
+- **Backend**: Python (Flask/Django or any other framework)
+- **Machine Learning**: TensorFlow/Keras or any relevant libraries for model implementation
+- **Database**: SQLite/MySQL or any database you’re using
 
-This Project takes a apple pant leaf image and predicts that is the plant leaf is healthy or not using Machine learning and Computer Vision.
+## Installation
 
-# Built With [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
-* [Python](https://www.python.org/)
-* [Streamlit](https://streamlit.io/)
-
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Installation
-
-1. Clone the repo ```git clone https://github.com/Shubhamai/plant-disease-detection```
-2. Run the ```pip install -r requirements.txt``` command.
-3. Download the [model.h5](https://www.kaggle.com/code/shubhamai/predicting-plant-disease/data?select=model.h5) from my [kaggle notebook](https://www.kaggle.com/code/shubhamai/predicting-plant-disease/) and save it as `model_weights.h5` in the main directory of the repo. 
-4. Run ```streamlit run app.py```
-
-## License
-
-Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
